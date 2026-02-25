@@ -1,31 +1,31 @@
-# 📊 Linear Programming – Graphical Method (Python + LaTeX)
+# Linear Programming – Graphical Method (Python + LaTeX)
 
 **Author:** Farah El Ghemary  
 **GitHub:** https://github.com/elghemary  
 **Course:** Programmation Linéaire  
-**Semester:** September 2025  
+**Semester:** September 2025
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project presents the modeling and graphical resolution of several **Linear Programming (LP)** problems using:
 
-- Mathematical modeling  
-- Graphical method (2 variables)  
-- Python (NumPy + Matplotlib)  
-- LaTeX report  
+- Mathematical modeling
+- Graphical method (2 variables)
+- Python (NumPy + Matplotlib)
+- LaTeX report
 
 The objective is to:
 
-- Formulate real-world optimization problems as linear programs  
-- Determine feasible regions  
-- Identify optimal solutions graphically  
-- Validate results mathematically  
+- Formulate real-world optimization problems as linear programs
+- Determine feasible regions
+- Identify optimal solutions graphically
+- Validate results mathematically
 
 ---
 
-## 🧮 Problems Covered
+## Problems Covered
 
 This homework includes **6 optimization problems**:
 
@@ -38,18 +38,16 @@ This homework includes **6 optimization problems**:
 
 Each problem includes:
 
-- Decision variables  
-- Constraints  
-- Objective function  
-- Graphical representation (when possible)  
-- Optimal solution  
-
----
+- Decision variables
+- Constraints
+- Objective function
+- Graphical representation (when possible)
+- Optimal solution
 
 
 ---
 
-## 📈 Generated Figures
+## Generated Figures
 
 ### Exercise 1 – Agriculture Problem
 
@@ -73,10 +71,7 @@ Minimum pills required: **10**
 
 ![Exercise 3](Python%20code/Figures/figure_03.png)
 
-Optimal solution:  
-
-(14400/23 , 7700/23)
-
+Optimal solution: **(14400/23, 7700/23)**  
 Maximum profit ≈ **898,260.87**
 
 ---
@@ -94,85 +89,37 @@ Maximum value: **26**
 
 ![Exercise 6](Python%20code/Figures/figure_06.png)
 
-Optimal solution: **(7.5, 5)**  
+Optimal solution: **(7.5, 5)**
 
 ---
 
-## 🐍 Python Implementation
+## LaTeX Report
 
-The graphical method was implemented using:
-
-- NumPy  
-- Matplotlib  
-
-Each script:
-
-- Defines constraints as linear equations  
-- Computes intersection points  
-- Plots feasible region  
-- Highlights optimal solution  
-
-Example:
-
-```python
-plt.fill_between(x, y_lower, y_upper, alpha=0.3)
-plt.scatter(x_opt, y_opt, marker="*", s=200)
-
-## 📄 LaTeX Report
-
-The complete mathematical formulation and detailed solutions of all exercises are provided in the LaTeX report:
+The complete mathematical formulation and detailed solutions are available in:
 
 - `main.tex`
 - `Homework_01.pdf`
 
 The report includes:
 
-- Formal linear programming formulation
+- Formal LP formulation
 - Definition of decision variables
 - Explicit constraints and objective functions
-- Tables of constraint intersections
-- Graphical interpretation of feasible regions
+- Graphical analysis
 - Mathematical justification of optimal solutions
-
-This project was submitted as an academic homework for the **Programmation Linéaire** course.
 
 ---
 
-## 🐍 Python Implementation
+## Python Implementation
 
-All graphical solutions were generated using **Python** with the following libraries:
+All graphical solutions were generated using:
 
 - `numpy`
 - `matplotlib`
 
-Each Python script corresponds to one exercise and performs the following steps:
+Each script:
 
-1. Define the constraint equations
-2. Plot constraint lines
-3. Identify and shade the feasible region
-4. Compute and highlight the optimal solution
-5. Annotate intersection points
-
-Example snippet:
-
-```python
-plt.fill_between(x, y_lower, y_upper, alpha=0.3)
-plt.scatter(x_opt, y_opt, marker="*", s=200)
-
-
-## 🚀 How to Run the Code
-
-Make sure you have Python installed (version 3.8+ recommended).
-
-### 1️⃣ Install Dependencies
-
-```bash
-pip install numpy matplotlib
-
-### 2️⃣ Run a Script
-Navigate to the project directory and run:
-
-```bash
-python plot_01.py
-
-
+1. Defines the constraint equations
+2. Plots constraint lines
+3. Shades the feasible region
+4. Highlights the optimal solution
